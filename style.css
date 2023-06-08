@@ -1,0 +1,109 @@
+h1{
+    color: red;
+    background-color: lightblue;
+}
+
+.contenedor{
+    border: 1px dotted;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div{
+    border: 1px solid darkkhaki;
+}
+
+.caja1{
+    background-color: coral; 
+    width: 50px;
+    height: 50px;
+}
+
+#caja1Cont1{
+    align-self: flex-start;
+}
+
+#caja1Cont2{
+    align-self: center;
+}
+
+.caja2{
+    background-color: cornflowerblue;
+    width: 50px;
+    height: 50px;
+
+}
+
+#caja2Cont1{
+    align-self: center;
+}
+
+#caja2Cont2{
+    align-self: stretch;
+    width: auto;
+}
+
+
+.caja3{
+    background-color: darkseagreen;
+    width: 50px;
+    height: 50px;
+}
+
+#caja3Cont1{
+    align-self: flex-end;
+
+}
+
+#caja3Cont2{
+    align-self: center;
+}
+
+.contenedor2{
+    border: 1px dotted;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+
+.delMedio{
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.exterior{
+    background-color: blueviolet;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black
+}
+
+.interior{
+    background-color: brown;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
+@media (max-width:600px) {
+    body{
+        background-color: aqua;
+    }
+}
+
+@media (max-width:400px) {
+    body{
+        background-color: red;
+    }
+}
